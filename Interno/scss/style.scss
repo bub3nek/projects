@@ -1,0 +1,792 @@
+.container { 
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body { 
+  font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+  box-sizing: border-box;
+}
+
+.header__upp { 
+  background-color: white;
+  padding: 22px 0;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  nav { 
+    display: flex;
+    flex-direction: row;
+  }
+
+  li { 
+    margin-right: 40px;
+    list-style: none;
+  }
+
+  a { 
+    font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.4px;
+      color: #292F36;
+      text-decoration: none;
+  }
+
+  a:hover { 
+    color: #CDA274;
+    transition: 0.8s;
+  }
+}
+
+.header__down { 
+  background: url(../images/bg.jpg);
+  border-radius: 0px 0px 0px 290px;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding-top: 1px;
+}
+
+.header__inner { 
+  margin-top: 195px;
+  h1 {
+      font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 80px;
+      line-height: 96px;
+      letter-spacing: 0.22px;
+      color: #292F36;
+      margin-bottom: 20px;
+      max-width: 595px;
+    }
+  
+    p {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.22px;
+      color: #4D5053;
+      max-width: 577px;
+    }
+
+    .header__btn { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.72px;
+        color: #FFFFFF;
+        text-decoration: none;
+        max-width: 106px;
+    }
+
+    .header-btn { 
+      background-color: #292F36;
+      padding-top: 22px;
+      padding-bottom: 22px;
+      padding-right: 34px;
+      padding-left: 34px;
+      max-width: 140px;
+        border: 2px solid #292F36;
+          border-radius: 18px;
+          position: relative;
+          margin-top: 35px;
+    }
+
+    .header-arrow { 
+      position: absolute;
+      top: 25%;
+      right: 22px;
+    }
+}
+
+.header { 
+  margin-bottom: 100px;
+}
+
+.prod__inner { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .prod__inner__left { 
+    max-width: 400px;
+    max-height: 395px;
+    height: 100vh;
+    h2 { 
+      margin-top: 75px;
+      font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #292F36;
+        margin-bottom: 17px;
+    }
+
+    p { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+        max-width: 307px;
+        margin-bottom: 48px;
+    }
+
+    .prod__btn { 
+      display: flex;
+      margin: 0 auto;
+      max-width: 134px;
+      margin-bottom: 70px;
+    }
+
+    .prod__btn:hover { 
+      .prod-arrow { 
+        transform: scale(1.3);
+        transition: 0.8s;
+        margin-left: 10px;
+      }
+    }
+
+    a { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.36px;
+        color: #4D5053;
+        text-decoration: none;
+    }
+    .prod-btn { 
+      margin: 0 auto;
+    }
+  }
+}
+
+.prod { 
+  margin-bottom: 100px;
+}
+
+.call { 
+  margin-bottom: 140px;
+
+  .call__inner { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .call__left { 
+    h2 { 
+      font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 0.22px;
+        color: #292F36;
+        max-width: 450px;
+        margin-bottom: 42px;
+    }
+
+    p { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+        max-width: 530px;
+        margin-bottom: 30px;
+    }
+
+    .call__btn { 
+      display: flex;
+      flex-direction: row;
+      /* align-items: center; */
+      padding-top: 10px;
+      margin-bottom: 50px;
+      a { 
+        margin-right: 20px;
+      }
+
+      p { 
+        font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 36px;
+          letter-spacing: 0.22px;
+          color: #4D5053;
+          max-width: 155px;
+      }
+    }
+
+    .get__free__btn { 
+      display: flex;
+      flex-direction: row;
+      max-width: 263px;
+      position: relative;
+
+      .get__free-btn { 
+        font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          letter-spacing: 0.72px;
+          color: #FFFFFF;
+          background-color: #292F36;
+          padding: 22px 67px 22px 34px;
+          text-decoration: none;
+          border: 2px solid #292F36;
+            border-radius: 18px;
+      }
+
+      .get__arrow { 
+        position: absolute;
+        right: 40px;
+        top: 20%;
+      }
+    }
+
+    .get__free__btn:hover  { 
+      .get__arrow { 
+        right: 30px;
+        transition: 0.8s;
+      }
+    }
+
+  }
+}
+
+.review { 
+  margin-bottom: 140px;
+
+  .review__inner { 
+    background-color: #F4F0EC;
+    border-radius: 70px;
+    padding: 103px 50px 120px 50px;
+
+    h2 { 
+      font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #292F36;
+    }
+
+    .review__down { 
+      display: flex;
+      flex-direction: row;
+      margin-top: 45px;
+      justify-content: space-between;
+      align-items: center;
+
+      .review__card { 
+        background-color: white;
+        border-radius: 30px;
+        padding: 50px 75px 45px 35px;
+        /* padding-left: 50px; */
+        max-width: 350px;
+
+        .review__card__up { 
+          display: flex;
+          margin-bottom: 25px;
+          max-width: 250px;
+          h3 { 
+            font-family: 'DM Serif Display';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 38px;
+              letter-spacing: 0.22px;
+              color: #292F36;
+          }
+
+          p { 
+            font-family: 'Jost';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 27px;
+              letter-spacing: 0.22px;
+              color: #4D5053;
+          }
+          
+          .review__subtitle { 
+            margin-left: 20px;
+          }
+        }
+
+        p { 
+          font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.22px;
+            color: #4D5053;
+            max-width: 250px;
+        }
+      }
+    }
+  }
+}
+
+.brands__inner { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.projects__inner { 
+  h2 { 
+    font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 47px;
+      line-height: 62px;
+      text-align: center;
+      letter-spacing: 0.22px;
+      color: #292F36;
+      margin-bottom: 20px;
+  }
+
+  p { 
+    font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.22px;
+      color: #4D5053;
+  }
+
+    h3 {
+      font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 38px;
+      letter-spacing: 0.22px;
+      color: #292F36;
+    }
+  
+    .projects__name {
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.22px;
+      color: #4D5053;
+      text-align: start;
+    }
+
+    .card__btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+  .project__cards__up { 
+    margin-top: 70px;
+  }
+
+  .project__cards__up { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .project__cards__down {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+  }
+}
+
+.projects { 
+  margin-bottom: 140px;
+}
+
+.viebony { 
+  background-color: #F4F0EC;
+  margin-bottom: 130px;
+  /* max-height: 475px;
+  height: 100vh; */
+  padding-top: 140px;
+  padding-bottom: 140px;
+
+  .viebony__inner { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .vieb-1 { 
+      max-width: 288px;
+      max-height: 195px;
+      border-right: solid #CDA274 1px ;
+      padding-right: 53px;
+
+      h2 { 
+        font-family: 'DM Serif Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 85px;
+          line-height: 128px;
+          text-align: center;
+          letter-spacing: 1.7px;
+          color: #CDA274;
+      }
+
+      p { 
+        font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 33px;
+          text-align: center;
+          letter-spacing: 0.22px;
+          color: #4D5053;
+      }
+    }
+  }
+}
+
+.blog { 
+  margin-bottom: 140px;
+  .blog__inner { 
+
+    h2 {
+      font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 62px;
+      text-align: center;
+      letter-spacing: 0.22px;
+      color: #292F36;
+      margin-bottom: 20px;
+    }
+
+    p { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+
+    }
+
+    .blog__down { 
+      margin-top: 70px;
+
+      .blog__down-1 { 
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .blog__card { 
+          position: relative;
+          border: 1px solid #E7E7E7;
+          border-radius: 62px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 40px;
+          max-width: 357px;
+
+          h3 { 
+            position: absolute;
+            font-family: 'Jost';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.22px;
+              color: #4D5053;
+              background: #FFFFFF;
+              padding: 10px;
+              border-radius: 8px 8px 8px 0px;
+              max-width: 150px;
+              /* width: 100vh; */
+              left: 6.96%;
+              right: 56.77%;
+              top: 222.59px;
+          }
+
+          .disc { 
+            position: absolute;
+            font-family: 'Jost';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.22px;
+              color: #4D5053;
+              background: #FFFFFF;
+              padding: 10px;
+              border-radius: 8px 8px 8px 0px;
+              max-width: 140px;
+              width: 100vh;
+              left: 6.96%;
+              right: 56.77%;
+              top: 222.59px;
+          }
+
+          h2 { 
+            font-family: 'DM Serif Display';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 35px;
+              letter-spacing: 0.5px;
+              color: #292F36;
+              margin-bottom: 10px;
+              text-align: start;
+          }
+
+          .blog__card__btn { 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p { 
+              font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.22px;
+                color: #4D5053;
+            }
+          }
+
+
+        }
+      }
+    }
+    
+  }
+}
+
+.connect__inner { 
+  background-color: #292F36;
+  border-radius: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 80px;
+
+  h2 { 
+    font-family: 'DM Serif Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 75px;
+      text-align: center;
+      letter-spacing: 0.22px;
+      color: #FFFFFF;
+      margin-bottom: 9px;
+  }
+
+  p { 
+    font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.22px;
+      color: #FFFFFF;
+      margin-bottom: 30px;
+  }
+
+  .connect__btn { 
+    background-color: #CDA274;
+    border: 2px solid #CDA274;
+    border-radius: 18px;
+    position: relative;
+    padding: 22px 67px 22px 34px;
+    max-width: 150px;
+    margin: 0 auto;
+
+    .connect-btn { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .connect__arrow { 
+      position: absolute;
+      top: 25%;
+      right: 20px;
+    }
+  }
+
+  .connect__btn:hover { 
+    .connect__arrow {
+        right: 10px;
+        transition: 0.8s;
+      }
+  }
+}
+
+.footer__inner { 
+  display: flex;
+  justify-content: space-between;
+
+  .block-1 { 
+    a { 
+      margin-bottom: 15px;
+    }
+
+    p { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+        margin-bottom: 30px;
+        max-width: 326px;
+    }
+
+    .sm { 
+      display: flex;
+      max-width: 180px;
+      align-items: center;
+      justify-content: space-between;
+
+      a:hover { 
+        transform: scale(1.2);
+        transition: 0.8s;
+      }
+    }
+  }
+
+  .block-2 { 
+    .f__h2 { 
+      font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+        margin-bottom: 20px;
+    }
+
+    .li__h2 { 
+      margin-bottom: 20px;
+    }
+    
+    .f__p { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+    }
+
+    ul { 
+      list-style: none;
+    }
+
+    a { 
+      text-decoration: none;
+      color: #292F36;
+    }
+
+    li { 
+      margin-bottom: 30px;
+    }
+
+    a:hover { 
+      color: #CDA274;
+      transition: 0.8s;
+    }
+    
+  }
+
+  .block-3 { 
+    h2 { 
+      font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+        color: #292F36;
+        margin-bottom: 22px;
+    }
+
+    p { 
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+        max-width: 320px;
+        margin-bottom: 30px;
+    }
+
+     a { 
+      text-decoration: none;
+      font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+     }
+
+     a:hover { 
+      color: #CDA274;
+      transition: 0.8s;
+     }
+  }
+}
